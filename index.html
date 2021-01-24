@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOMENTUM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="js-time">
+            <h1 class="js-date">Today's Date Is...</h1>
+            <h1 class="js-clock">00:00</h1>
+        </div>
+    
+        <form class="js-form form">
+            <input type="text" placeholder="What is your name?" />
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+    
+        <div class = "weather">
+            <img src = "http://openweathermap.org/img/wn/10d@2x.png" class = "icon" />
+            <div class="desc">
+                <p class = "js-Temp"></p>
+                <p class = "js-place"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contents">
+        <div class="picture">
+        </div>
+    
+        <div class="main">
+            <div class="quotation">
+                <p class="quote">"I attribute my success to this: <br/>I never gave or took Excuse."</p>
+                <p class="author">-Florence Nightingale</p>
+            </div>
+            <form class="js-toDoForm"> 
+                <input tyle="text" placeholder="What is your to-do?" />
+            </form>
+        
+            <ul class="js-toDoList">
+            </ul>
+        </div>
+    </div>
+
+    <script src="./clock.js"></script>
+    <script src="./greeting.js"></script>
+    <script src="./todo.js"></script>
+    <script src="./pic.js"></script>
+    <script src="./weather.js"></script>
+    <script src="./quotes.js"></script>
+</body>
+</html>
